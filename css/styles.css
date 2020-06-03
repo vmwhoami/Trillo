@@ -212,5 +212,15 @@ body {
   width: 2rem;
   height: 2rem;
 }
+.navbar-left__copyright {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  color: whitesmoke;
+  flex-direction: column;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
 
 /*# sourceMappingURL=styles.css.map */
