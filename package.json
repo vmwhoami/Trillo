@@ -1,0 +1,19 @@
+{
+  "name": "trillo",
+  "version": "1.0.0",
+  "description": "A project following a tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmwhoami/Trillo.git"
+  },
+  "author": "Vitalie Melnic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vmwhoami/Trillo/issues"
+  },
+  "homepage": "https://github.com/vmwhoami/Trillo#readme"
+}
