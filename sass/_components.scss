@@ -30,7 +30,7 @@
         flex: 0 1 50%;
         font-family: inherit;
         font-family: inherit;
-        padding: .5rem 1.5rem;
+        padding: .5rem 1rem;
         background-color: var(--gray-light1);
         border: none;
         border-radius: 5rem 0 0 5rem;
@@ -90,26 +90,41 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    position: relative;
+    margin-right: 2rem;
+
+    &>* {
+        align-self: stretch;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     &-iconbox {
+        position: relative;
+        flex: 1 0 2rem;
 
         &--icon {
             fill: var(--gray3);
-            width: 2rem;
-            height: 2rem;
+            width: 3rem;
+            height: 3rem;
         }
+
     }
 
     &-notification {
-        background-color: red;
+        background-color: #df0000;
+        color: #fff;
         position: absolute;
+        top: 1rem;
+        right: 1.5rem;
         padding: .5rem;
-        display: inline-block;
-        width: 1rem;
-        border-radius: 50%;
+        border-radius: 3rem;
+        flex: 1 0 auto;
+        
     }
 
     &__user {
+
         width: 6rem;
         height: 6rem;
         border-radius: 50%;
@@ -120,3 +135,8 @@
         }
     }
 }
+
+
+
+////////////////////////////////////
+/////////////Left Navbar ///////////
