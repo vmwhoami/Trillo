@@ -1,0 +1,29 @@
+.container {
+    width: 90vw;
+    min-height: 60vh;
+    margin: 4rem auto;
+    box-shadow: var(--shadow);
+}
+
+.top-section {
+    background-color: #fff;
+    width: 100%;
+    height: 7rem;
+}
+
+.content {
+    display: flex;
+}
+
+.navbar-left {
+    background-color: var(--gray1);
+    min-width: 20%;
+    flex: 0 0 20%;
+    height: 100%;
+}
+
+.main-content {
+    background-color: var(--gray-light1);
+    flex: 1;
+    height: 100%;
+}
