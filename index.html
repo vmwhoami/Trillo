@@ -13,14 +13,43 @@
 
 <body>
     <div class="container">
-        <div class="top-section">top</div>
+        <div class="top-section">
+            <div class="logo">
+                <svg class="logo-svg">
+                    <use xlink:href="img/sprite.svg#icon-vmlogo"></use>
+                </svg>
+            </div>
+            <form class="search" action="#">
+                <input type="search" name="search" id="search" class="search__input"
+                    placeholder="Search for something cool">
+                <button class="search__button">
+                    <svg class="search__button--icon">
+                        <use xlink:href="img/sprite.svg#icon-search"></use>
+                    </svg>
+                </button>
+            </form>
+            <nav class="usernav">
+                <div class="usernav-iconbox">
+                    <svg class="usernav-iconbox--icon">
+                        <use xlink:href="img/sprite.svg#icon-bookmark1"></use>
+                    </svg>
+                    <span class="usernav-notification">7</span>
+                </div>
+                <div class="usernav-iconbox">
+                    <svg class="usernav-iconbox--icon">
+                        <use xlink:href="img/sprite.svg#icon-chat"></use>
+                    </svg>
+                    <span class="usernav-notification">12</span>
+                </div>
+                <div class="usernav__user">
+                    <img class="usernav__user--img" src="img/olea.jpg" alt="user">
+                </div>
+
+            </nav>
+        </div>
         <div class="content">
             <nav class="navbar-left">
-                <div class="logo">
-                    <svg class="logo-svg">
-                        <use xlink:href="img/sprite.svg#icon-vmlogo"></use>
-                    </svg>
-                </div>
+
             </nav>
             <main class="main-content">
                 content
