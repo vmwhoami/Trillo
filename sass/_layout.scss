@@ -23,6 +23,9 @@
     min-width: 20%;
     flex: 0 0 20%;
     height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+
 }
 
 .main-content {

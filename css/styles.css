@@ -61,6 +61,8 @@ body {
   min-width: 20%;
   flex: 0 0 20%;
   height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .main-content {
@@ -170,6 +172,26 @@ body {
 }
 .usernav__user--img {
   width: 100%;
+}
+
+.navbar-left_list {
+  list-style: none;
+}
+.navbar-left_list_li {
+  margin-top: 1.5rem;
+}
+.navbar-left_list_link:link, .navbar-left_list_link:visited {
+  text-decoration: none;
+  font-size: 2rem;
+  color: var(--gray-light3);
+  display: flex;
+  align-items: center;
+}
+.navbar-left_list_icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  fill: var(--gray-light3);
+  margin: 0 2rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
