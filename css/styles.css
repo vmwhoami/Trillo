@@ -38,7 +38,6 @@ body {
 
 .container {
   width: 90vw;
-  min-height: 60vh;
   margin: 4rem auto;
   box-shadow: var(--shadow);
 }
@@ -73,13 +72,13 @@ body {
 
 .logo {
   margin-left: 2rem;
-  width: 5rem;
+  width: 8rem;
   height: 100%;
   display: flex;
   align-items: center;
 }
 .logo-svg {
-  width: 7rem;
+  width: 8rem;
   fill: var(--gray3);
 }
 
