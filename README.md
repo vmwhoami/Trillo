@@ -1,13 +1,13 @@
 # Advanced CSS course from Udemy side project
 
 
-> In this project, I learned how to build your own bootstrap grid using floats
+
 > Learned how to use sass in this project  
 > Media queries were used to target “different” screen sizes in order for us to effectively and efficiently let the website fit correctly to each screen size.
 
 > Building this project was fun as we practiced different CSS rules learned about new CSS tricks using pure CSS
 
-![screenshot](https://raw.githubusercontent.com/vmwhoami/advanced-css/work-home/img/Screenshot_1.jpg)
+![screenshot](#)
 
 
 This project covers the following HTML and CSS3 concepts
@@ -25,7 +25,7 @@ This project covers the following HTML and CSS3 concepts
 
 ## Live Demo
 
-[Live Demo Link](https://gracious-lovelace-f8f389.netlify.app/)
+[Live Demo Link](https://trillo-65rur0xqo.now.sh/)
 
 ## Getting Started
 
