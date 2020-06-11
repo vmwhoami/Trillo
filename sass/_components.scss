@@ -159,11 +159,15 @@
 
     &_li {
         margin-top: 1.5rem;
+        position: relative;
+
+        &::before {}
     }
 
     &_link:link,
     &_link:visited {
         text-decoration: none;
+        text-transform: uppercase;
         font-size: 2rem;
         color: var(--gray-light3);
         display: flex;
@@ -173,7 +177,16 @@
     &_icon {
         width: 2.5rem;
         height: 2.5rem;
-        fill: var(--gray-light3);
+        fill: currentColor;
         margin: 0 2rem;
     }
+}
+
+.navbar-left_footer {
+    text-decoration: none;
+    align-self: center;
+    font-size: 1.5rem;
+    color: var(--gray-light3);
+    display: flex;
+    flex-direction: column;
 }
