@@ -1,6 +1,6 @@
 .container {
     width: 90vw;
-    min-height: 60vh;
+    // min-height: 60vh;
     margin: 4rem auto;
     box-shadow: var(--shadow);
 }
@@ -33,5 +33,4 @@
 .main-content {
     background-color: var(--gray-light1);
     flex: 1;
-
 }
