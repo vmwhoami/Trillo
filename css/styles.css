@@ -237,4 +237,13 @@ body {
   flex-direction: column;
 }
 
+.gallery {
+  display: flex;
+  flex-direction: row;
+}
+.gallery_photo {
+  width: 100%;
+  display: block;
+}
+
 /*# sourceMappingURL=styles.css.map */
