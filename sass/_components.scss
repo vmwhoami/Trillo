@@ -249,21 +249,32 @@
 
 .overview {
     display: flex;
+    align-items: center;
+    background-color: white;
+
+    &_heading {
+        font-size: 2rem;
+        font-weight: 400;
+    }
 
     &_stars {
         display: flex;
+        margin-right: auto;
+        margin-left: 2rem;
 
         &_icon {
-            fill: var(--gray3);
+            fill: var(--color-primary);
             width: 1.7rem;
             height: 1.7rem;
         }
     }
 
+    &_location {
+        display: flex;
+        align-items: center;
+    }
 
-
-
-
-
-
+    &_rating {
+        background: linear-gradient(var(--color-primary), var(--color-primary-light))
+    }
 }

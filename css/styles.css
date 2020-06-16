@@ -254,14 +254,29 @@ body {
 
 .overview {
   display: flex;
+  align-items: center;
+  background-color: white;
+}
+.overview_heading {
+  font-size: 2rem;
+  font-weight: 400;
 }
 .overview_stars {
   display: flex;
+  margin-right: auto;
+  margin-left: 2rem;
 }
 .overview_stars_icon {
-  fill: var(--gray3);
+  fill: var(--color-primary);
   width: 1.7rem;
   height: 1.7rem;
+}
+.overview_location {
+  display: flex;
+  align-items: center;
+}
+.overview_rating {
+  background: linear-gradient(var(--color-primary), var(--color-primary-light));
 }
 
 /*# sourceMappingURL=styles.css.map */
