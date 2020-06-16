@@ -246,3 +246,24 @@
 
 ///////////////////////////////////
 /////////////Overview///////////
+
+.overview {
+    display: flex;
+
+    &_stars {
+        display: flex;
+
+        &_icon {
+            fill: var(--gray3);
+            width: 1.7rem;
+            height: 1.7rem;
+        }
+    }
+
+
+
+
+
+
+
+}

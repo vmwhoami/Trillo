@@ -252,4 +252,16 @@ body {
   object-position: top;
 }
 
+.overview {
+  display: flex;
+}
+.overview_stars {
+  display: flex;
+}
+.overview_stars_icon {
+  fill: var(--gray3);
+  width: 1.7rem;
+  height: 1.7rem;
+}
+
 /*# sourceMappingURL=styles.css.map */
