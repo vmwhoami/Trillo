@@ -71,6 +71,23 @@ body {
   flex: 1;
 }
 
+.detail {
+  display: flex;
+  padding: 1.6rem;
+  background-color: var(--gray-light1);
+}
+
+.description {
+  flex: 0 0 60%;
+  background-color: blue;
+  margin-right: 1.6rem;
+}
+
+.user-reviews {
+  flex: 1;
+  background-color: red;
+}
+
 .logo {
   margin-left: 2rem;
   width: 8rem;
