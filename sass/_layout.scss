@@ -44,11 +44,14 @@
 
 .description {
     flex: 0 0 60%;
-    background-color: blue;
+    background-color: white;
+    box-shadow: var(--shadow);
     margin-right: 1.6rem;
 }
 
 .user-reviews {
     flex: 1;
-    background-color: red;
+    background-color: white;
+    box-shadow: var(--shadow);
+
 }
