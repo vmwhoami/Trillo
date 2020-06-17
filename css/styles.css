@@ -264,6 +264,7 @@ body {
 }
 .overview_stars {
   display: flex;
+  align-items: center;
   margin-right: auto;
   margin-left: 2rem;
 }
@@ -300,7 +301,27 @@ body {
   font-size: 2rem;
   color: var(--gray1);
   background-color: white;
-  padding: 1rem;
+  padding: 0.5rem;
+  margin-left: 1rem;
+  border-bottom: 1px solid var(--color-primary);
+}
+.btn-inline:hover {
+  animation: button infinite;
+}
+
+@keyframes button {
+  0% {
+    transform: scale(1);
+    box-shadow: none;
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0.5rem 1rem #00000065;
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: none;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
