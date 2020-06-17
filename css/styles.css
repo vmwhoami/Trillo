@@ -48,6 +48,7 @@ body {
   height: 7rem;
   display: flex;
   justify-content: space-between;
+  border: 1px solid var(--gray-light);
 }
 
 .content {
@@ -303,13 +304,17 @@ body {
   background-color: white;
   padding: 0.5rem;
   margin-left: 1rem;
-  border-bottom: 1px solid var(--color-primary);
+  border-bottom: 1px solid currentColor;
 }
 .btn-inline:hover {
-  animation: button infinite;
+  color: #df0000;
+  animation: butt infinite 1s;
+}
+.btn-inline:focus {
+  outline: none;
 }
 
-@keyframes button {
+@keyframes butt {
   0% {
     transform: scale(1);
     box-shadow: none;

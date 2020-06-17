@@ -306,14 +306,19 @@
     background-color: white;
     padding: .5rem;
     margin-left: 1rem;
-    border-bottom: 1px solid var(--color-primary);
+    border-bottom: 1px solid currentColor;
 
     &:hover {
-        animation: button infinite;
+        color: #df0000;
+        animation: butt infinite 1s;
+    }
+
+    &:focus {
+        outline: none;
     }
 }
 
-@keyframes button {
+@keyframes butt {
     0% {
         transform: scale(1);
         box-shadow: none;
