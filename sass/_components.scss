@@ -271,6 +271,7 @@
     }
 
     &_location {
+        margin-right: 2rem;
         display: flex;
         align-items: center;
     }
@@ -295,4 +296,12 @@
             padding: .5rem;
         }
     }
+}
+
+.btn-inline {
+    border: none;
+    font-size: 2rem;
+    color: var(--gray1);
+    background-color: white;
+    padding: 1rem;
 }
