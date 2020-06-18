@@ -1,6 +1,6 @@
 .container {
     width: 90vw;
-    // min-height: 60vh;
+
     margin: 4rem auto;
     box-shadow: var(--shadow);
 }
@@ -16,7 +16,7 @@
 
 .content {
     display: flex;
-    height: 60rem;
+
 }
 
 .navbar-left {
@@ -47,6 +47,7 @@
     background-color: white;
     box-shadow: var(--shadow);
     margin-right: 1.6rem;
+    font-size: 1.4rem;
 }
 
 .user-reviews {
