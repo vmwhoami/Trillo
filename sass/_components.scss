@@ -299,6 +299,8 @@
     }
 }
 
+///////////////////////////////
+////BUttton//////////
 .btn-inline {
     border: none;
     font-size: 2rem;
@@ -333,4 +335,22 @@
         transform: scale(1);
         box-shadow: none;
     }
+}
+
+
+///////////////////////////////////
+/////////////Paragraph///////////
+
+.paragraph:not(:last-of-type) {
+    margin-bottom: 2rem;
+}
+
+
+
+///////////////////////////////////
+/////////////List///////////
+
+.list {
+    list-style: none;
+    margin-top: 2rem;
 }
