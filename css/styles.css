@@ -375,18 +375,28 @@ body {
   mask-size: cover;
 }
 
+.recomend {
+  display: flex;
+  align-items: center;
+}
 .recomend_count {
   font-size: 1.3rem;
   color: var(--gray2);
+  margin-right: auto;
 }
 .recomend_photo {
   display: flex;
 }
 .recomend_pic {
+  box-sizing: content-box;
   width: 5rem;
   height: 5rem;
   object-fit: cover;
   border-radius: 50%;
+  border: 0.5rem solid white;
+}
+.recomend_pic:not(:last-child) {
+  margin-right: -1rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

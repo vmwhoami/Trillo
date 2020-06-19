@@ -387,24 +387,34 @@
 
 
 .recomend {
+    display: flex;
+    align-items: center;
 
     &_count {
         font-size: 1.3rem;
         color: var(--gray2);
+        margin-right: auto;
     }
 
 
     &_photo {
         display: flex;
 
+
     }
 
 
     &_pic {
+        box-sizing: content-box;
         width: 5rem;
         height: 5rem;
         object-fit: cover;
         border-radius: 50%;
+        border: .5rem solid white;
+
+        &:not(:last-child) {
+            margin-right: -1rem;
+        }
     }
 
 }
