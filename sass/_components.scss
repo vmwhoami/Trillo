@@ -366,12 +366,12 @@
 
         &::before {
             content: "";
-            position: absolute;
-            left: 0;
-            top: 0;
-            width: 3px;
-            height: 100%;
-            background-color: red;
+            // position: absolute;
+            display: inline-block;
+            height: 2rem;
+            width: 2rem;
+            // background-image: url(../img/SVG/chevron-right.svg);
+            background-color: var(--color-primary);
         }
     }
 }
