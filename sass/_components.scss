@@ -362,6 +362,17 @@
         flex: 0 0 50%;
         text-transform: capitalize;
         margin-bottom: .7rem;
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 3px;
+            height: 100%;
+            background-color: red;
+        }
     }
 }
 

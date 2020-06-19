@@ -363,6 +363,16 @@ body {
   flex: 0 0 50%;
   text-transform: capitalize;
   margin-bottom: 0.7rem;
+  position: relative;
+}
+.list_item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background-color: red;
 }
 
 .recomend_photo {
