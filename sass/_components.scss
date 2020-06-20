@@ -413,9 +413,15 @@
         object-position: center;
         border-radius: 50%;
         border: .5rem solid white;
+        transition: all .3s;
 
         &:not(:last-child) {
             margin-right: -1rem;
+        }
+
+        &:hover{
+            transform: scale(1.2);
+            z-index: 10;
         }
     }
 
