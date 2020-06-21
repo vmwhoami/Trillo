@@ -408,6 +408,7 @@ body {
 }
 
 .review {
+  background-color: white;
   box-shadow: var(--shadow);
   margin-bottom: 3rem;
   padding: 2rem;

@@ -432,9 +432,17 @@
 /////////User Reviews/////////
 
 .review {
+  
+
+
+background-color: white;
     box-shadow: var(--shadow);
     margin-bottom: 3rem;
     padding: 2rem;
+
+    &:last-child{
+    
+    }
     &_text{
         font-size: 1.4rem;
         padding: 2rem;
