@@ -86,8 +86,8 @@ body {
 
 .user-reviews {
   flex: 1;
-  background-color: white;
-  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
 }
 
 .logo {
@@ -405,6 +405,28 @@ body {
 .recomend_pic:hover {
   transform: scale(1.2);
   z-index: 10;
+}
+
+.review {
+  box-shadow: var(--shadow);
+  margin-bottom: 3rem;
+  padding: 2rem;
+}
+.review_text {
+  font-size: 1.4rem;
+  padding: 2rem;
+}
+.review-user {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.review__img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -426,3 +426,32 @@
     }
 
 }
+
+
+//////////////////////////////
+/////////User Reviews/////////
+
+.review {
+    box-shadow: var(--shadow);
+    margin-bottom: 3rem;
+    padding: 2rem;
+    &_text{
+        font-size: 1.4rem;
+        padding: 2rem;
+    }
+
+    &-user{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    &__img{
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+}
