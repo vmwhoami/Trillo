@@ -419,7 +419,7 @@
             margin-right: -1rem;
         }
 
-        &:hover{
+        &:hover {
             transform: scale(1.2);
             z-index: 10;
         }
@@ -432,29 +432,32 @@
 /////////User Reviews/////////
 
 .review {
-  
 
 
-background-color: white;
+
+    background-color: white;
     box-shadow: var(--shadow);
     margin-bottom: 3rem;
     padding: 2rem;
 
-    &:last-child{
-    
-    }
-    &_text{
+    &:last-child {}
+
+    &_text {
         font-size: 1.4rem;
         padding: 2rem;
     }
 
-    &-user{
+    &-user {
         display: flex;
         justify-content: space-around;
         align-items: center;
+
+        &_box {
+            margin-right: auto;
+        }
     }
 
-    &__img{
+    &__img {
         width: 8rem;
         height: 8rem;
         border-radius: 50%;

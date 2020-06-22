@@ -422,6 +422,9 @@ body {
   justify-content: space-around;
   align-items: center;
 }
+.review-user_box {
+  margin-right: auto;
+}
 .review__img {
   width: 8rem;
   height: 8rem;
