@@ -425,12 +425,26 @@ body {
 .review-user_box {
   margin-right: auto;
 }
+.review-user_name {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: var(--color-primary);
+}
+.review-user_date {
+  font-size: 1.2rem;
+}
 .review__img {
-  width: 8rem;
-  height: 8rem;
+  width: 6rem;
+  height: 6rem;
   border-radius: 50%;
   object-fit: cover;
   object-position: center;
+  margin-right: 1.2rem;
+}
+.review__rating {
+  font-size: 2.2rem;
+  color: var(--color-primary);
 }
 
 /*# sourceMappingURL=styles.css.map */
