@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -412,10 +413,14 @@ body {
   box-shadow: var(--shadow);
   margin-bottom: 3rem;
   padding: 2rem;
+  position: relative;
+  overflow: hidden;
 }
 .review_text {
   font-size: 1.4rem;
   padding: 2rem;
+  position: relative;
+  z-index: 4;
 }
 .review-user {
   display: flex;
@@ -445,6 +450,17 @@ body {
 .review__rating {
   font-size: 2.2rem;
   color: var(--color-primary);
+}
+.review::before {
+  content: "“";
+  display: inline-block;
+  font-size: 20rem;
+  position: absolute;
+  top: -9rem;
+  left: -1rem;
+  color: var(--gray-light);
+  font-family: sans-serif;
+  z-index: 1;
 }
 
 /*# sourceMappingURL=styles.css.map */

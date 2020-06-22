@@ -432,19 +432,20 @@
 /////////User Reviews/////////
 
 .review {
-
-
-
     background-color: white;
     box-shadow: var(--shadow);
     margin-bottom: 3rem;
     padding: 2rem;
+    position: relative;
+    overflow: hidden;
 
     &:last-child {}
 
     &_text {
         font-size: 1.4rem;
         padding: 2rem;
+        position: relative;
+        z-index: 4;
     }
 
     &-user {
@@ -480,5 +481,17 @@
     &__rating {
         font-size: 2.2rem;
         color: var(--color-primary);
+    }
+
+    &::before {
+        content: "\201C";
+        display: inline-block;
+        font-size: 20rem;
+        position: absolute;
+        top: -9rem;
+        left: -1rem;
+        color: var(--gray-light);
+        font-family: sans-serif;
+        z-index: 1;
     }
 }
