@@ -330,6 +330,10 @@ body {
   color: #df0000;
   animation: butt infinite 1s;
 }
+.btn-inline:hover span {
+  margin-left: 3rem;
+  transition: all 0.3s;
+}
 .btn-inline:focus {
   outline: none;
 }
@@ -406,6 +410,12 @@ body {
 .recomend_pic:hover {
   transform: scale(1.2);
   z-index: 10;
+}
+
+.user-reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .review {

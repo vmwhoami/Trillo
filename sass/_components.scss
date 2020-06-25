@@ -313,6 +313,11 @@
     &:hover {
         color: #df0000;
         animation: butt infinite 1s;
+
+        span {
+            margin-left: 3rem;
+            transition: all .3s;
+        }
     }
 
     &:focus {
@@ -430,6 +435,11 @@
 
 //////////////////////////////
 /////////User Reviews/////////
+.user-reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .review {
     background-color: white;
