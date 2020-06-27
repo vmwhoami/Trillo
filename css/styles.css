@@ -273,7 +273,7 @@ body {
   height: 20rem;
   display: block;
   object-fit: cover;
-  object-position: top;
+  object-position: center;
 }
 
 .overview {
@@ -478,11 +478,12 @@ body {
 
 .cta {
   width: 100%;
+  position: relative;
   background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  z-index: 300;
+  z-index: 400;
   margin-top: 3rem;
 }
 .cta_booknow {
