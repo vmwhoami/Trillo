@@ -199,13 +199,16 @@ body {
   align-items: center;
 }
 .usernav__user_imgcontainer {
-  align-self: stretch;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
 }
 .usernav__user_imgcontainer:hover {
   background-color: var(--gray-light3);
 }
 .usernav__user--img {
   width: 100%;
+  height: 100%;
 }
 
 .navbar-left_list {
