@@ -532,6 +532,8 @@
     background: linear-gradient(to right, var(--color-primary), var(--color-primary-light));
     position: relative;
     overflow: hidden;
+    width: 25rem;
+    height: 8rem;
 
     &>* {
         color: white;
@@ -541,7 +543,28 @@
     }
 
 
-    &__invisible {}
+    &__invisible {
+        top: -150%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: all .3s;
 
-    &__visible {}
+    }
+
+    &__visible {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: all .3s;
+
+    }
+
+    &:hover &__invisible {
+        top: 50%;
+    }
+
+    &:hover &__visible {
+        top: 50%;
+        transform: translate(-50%, 200%);
+    }
 }

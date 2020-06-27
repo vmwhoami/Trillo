@@ -496,12 +496,33 @@ body {
   background: linear-gradient(to right, var(--color-primary), var(--color-primary-light));
   position: relative;
   overflow: hidden;
+  width: 25rem;
+  height: 8rem;
 }
 .btn > * {
   color: white;
   font-size: 2rem;
   text-transform: uppercase;
   position: absolute;
+}
+.btn__invisible {
+  top: -150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s;
+}
+.btn__visible {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s;
+}
+.btn:hover .btn__invisible {
+  top: 50%;
+}
+.btn:hover .btn__visible {
+  top: 50%;
+  transform: translate(-50%, 200%);
 }
 
 /*# sourceMappingURL=styles.css.map */
