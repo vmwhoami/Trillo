@@ -9,14 +9,17 @@
     --gray-light: #dfdfdf;
     --gray-light1: #fafafa;
     --gray-light3: #f1f1f1;
-
-
     --gray1: #555;
     --gray2: #666;
     --gray3: #777;
 
     --shadow: 0 4rem 6rem rgba(0, 0, 0, .3)
+
+
+    ///Break points 
+ --break-lg:75em;//1200px
 }
+
 
 *,
 *::before,
@@ -39,5 +42,5 @@ body {
     line-height: 1.6;
     background-repeat: no-repeat;
     color: var(--gray3);
-    min-height: 100vh;
+ 
 }
