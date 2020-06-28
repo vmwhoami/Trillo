@@ -21,7 +21,7 @@
  --break-md:48em; //768px
 
 }
-
+$break-md:48em;
 
 *,
 *::before,
@@ -34,8 +34,8 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%;
-    @media only screen and (max-width:48em){
-        font-size: 50%;
+    @media only screen and (max-width:$break-md){
+        font-size: 55%;
     }
 }
 
