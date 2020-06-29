@@ -48,10 +48,10 @@ body {
   margin: 4rem auto;
   box-shadow: var(--shadow);
 }
-@media only screen and (max-width: 48em) {
+@media only screen and (max-width: 75em) {
   .container {
     margin: 0;
-    max-width: 100%;
+    width: 100%;
   }
 }
 
@@ -67,6 +67,11 @@ body {
 .content {
   display: flex;
 }
+@media only screen and (max-width: 56.25em) {
+  .content {
+    flex-direction: column;
+  }
+}
 
 .navbar-left {
   background-color: var(--gray1);
@@ -75,6 +80,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+@media only screen and (max-width: 56.25em) {
+  .navbar-left {
+    flex-direction: row;
+  }
 }
 
 .main-content {
