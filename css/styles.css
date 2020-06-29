@@ -13,10 +13,9 @@
   --gray1: #555;
   --gray2: #666;
   --gray3: #777;
-  --shadow: 0 4rem 6rem rgba(0, 0, 0, .3)
-     ///Break points
-  --break-lg: 75em;
-  --break-md:48em;
+  --shadow: 0 4rem 6rem rgba(0, 0, 0, .3) ///Break points
+      --break-lg: 75em;
+  --break-md: 48em;
 }
 
 *,
@@ -32,7 +31,7 @@ html {
 }
 @media only screen and (max-width: 48em) {
   html {
-    font-size: 55%;
+    font-size: 68%;
   }
 }
 
@@ -52,6 +51,7 @@ body {
 @media only screen and (max-width: 48em) {
   .container {
     margin: 0;
+    max-width: 100%;
   }
 }
 
@@ -86,6 +86,11 @@ body {
   display: flex;
   padding: 1.6rem;
   background-color: var(--gray-light1);
+}
+@media only screen and (max-width: 48em) {
+  .detail {
+    flex-direction: column;
+  }
 }
 
 .description {

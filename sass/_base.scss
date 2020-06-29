@@ -13,15 +13,15 @@
     --gray2: #666;
     --gray3: #777;
 
-    --shadow: 0 4rem 6rem rgba(0, 0, 0, .3)
-
-
-    ///Break points 
- --break-lg: 75em;//1200px
- --break-md:48em; //768px
+    --shadow: 0 4rem 6rem rgba(0, 0, 0, .3) ///Break points 
+        --break-lg: 75em; //1200px
+    --break-md: 48em; //768px
 
 }
+
 $break-md:48em;
+$break-lg:75em;
+$break-lg2:56.25em; //900px
 
 *,
 *::before,
@@ -34,8 +34,9 @@ $break-md:48em;
 html {
     box-sizing: border-box;
     font-size: 62.5%;
-    @media only screen and (max-width:$break-md){
-        font-size: 55%;
+
+    @media only screen and (max-width:$break-md) {
+        font-size: 68%;
     }
 }
 
@@ -46,5 +47,5 @@ body {
     line-height: 1.6;
     background-repeat: no-repeat;
     color: var(--gray3);
- 
+
 }
