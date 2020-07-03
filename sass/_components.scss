@@ -22,7 +22,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
+    @media only screen and (max-width:48em) {
+        display: none;
+    }
 
 
     &__input {
@@ -280,7 +282,10 @@
     display: flex;
     align-items: center;
     background-color: white;
-
+    @media only screen and (max-width:48em) {
+        flex-direction: column;
+       justify-content: flex-start;
+    }
     &_heading {
         font-size: 2rem;
         font-weight: 400;
@@ -424,7 +429,9 @@
 .recomend {
     display: flex;
     align-items: center;
-
+    @media only screen and (max-width:48em) {
+      flex-direction: column;
+    }
     &_count {
         font-size: 1.3rem;
         color: var(--gray2);
