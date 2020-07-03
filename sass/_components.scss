@@ -162,7 +162,7 @@
 
     @media only screen and (max-width:56.25em) {
         display: flex;
-
+        align-items: center;
     }
 
     &_li {
@@ -171,6 +171,7 @@
 
         @media only screen and (max-width:56.25em) {
             margin-top: 0;
+            height: 100%;
             flex: 1;
         }
 
@@ -216,6 +217,11 @@
         display: flex;
         align-items: center;
         z-index: 20;
+        @media only screen and (max-width:56.25em) {
+            font-size: 1.5rem;
+            height: 100%;
+           
+        }
     }
 
 
@@ -224,6 +230,10 @@
         height: 2.5rem;
         fill: currentColor;
         margin: 0 2rem;
+        @media only screen and (max-width:56.25em) {
+            margin: 0 1rem;
+           
+        }
     }
 }
 

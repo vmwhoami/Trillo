@@ -244,6 +244,7 @@ body {
 @media only screen and (max-width: 56.25em) {
   .navbar-left_list {
     display: flex;
+    align-items: center;
   }
 }
 .navbar-left_list_li {
@@ -253,6 +254,7 @@ body {
 @media only screen and (max-width: 56.25em) {
   .navbar-left_list_li {
     margin-top: 0;
+    height: 100%;
     flex: 1;
   }
 }
@@ -286,11 +288,22 @@ body {
   align-items: center;
   z-index: 20;
 }
+@media only screen and (max-width: 56.25em) {
+  .navbar-left_list_link, .navbar-left_list_link:link, .navbar-left_list_link:visited {
+    font-size: 1.5rem;
+    height: 100%;
+  }
+}
 .navbar-left_list_icon {
   width: 2.5rem;
   height: 2.5rem;
   fill: currentColor;
   margin: 0 2rem;
+}
+@media only screen and (max-width: 56.25em) {
+  .navbar-left_list_icon {
+    margin: 0 1rem;
+  }
 }
 
 .navbar-left_footer {
