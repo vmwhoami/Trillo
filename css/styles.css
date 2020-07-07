@@ -114,6 +114,12 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
 }
+@media only screen and (max-width: 48em) {
+  .description {
+    margin-right: 0;
+    margin-bottom: 3rem;
+  }
+}
 
 .user-reviews {
   flex: 1;
@@ -299,15 +305,24 @@ body {
     height: 100%;
   }
 }
+@media only screen and (max-width: 37.5em) {
+  .navbar-left_list_link, .navbar-left_list_link:link, .navbar-left_list_link:visited {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0;
+  }
+}
 .navbar-left_list_icon {
   width: 2.5rem;
   height: 2.5rem;
   fill: currentColor;
   margin: 0 2rem;
 }
-@media only screen and (max-width: 56.25em) {
+@media only screen and (max-width: 37.5em) {
   .navbar-left_list_icon {
-    margin: 0 1rem;
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 1rem;
   }
 }
 
@@ -355,6 +370,11 @@ body {
   font-size: 2rem;
   font-weight: 400;
   margin: 1rem;
+}
+@media only screen and (max-width: 48em) {
+  .overview_heading {
+    font-size: 1.8rem;
+  }
 }
 .overview_stars {
   display: flex;
