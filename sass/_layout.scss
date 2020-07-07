@@ -17,6 +17,11 @@
     display: flex;
     justify-content: space-between;
     border: 1px solid var(--gray-light);
+
+    @media only screen and (max-width:23.5em) {
+        flex-wrap: wrap;
+
+    }
 }
 
 .content {

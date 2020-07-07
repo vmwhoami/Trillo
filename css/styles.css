@@ -68,6 +68,11 @@ body {
   justify-content: space-between;
   border: 1px solid var(--gray-light);
 }
+@media only screen and (max-width: 23.5em) {
+  .top-section {
+    flex-wrap: wrap;
+  }
+}
 
 .content {
   display: flex;
@@ -145,9 +150,10 @@ body {
   align-items: center;
   justify-content: center;
 }
-@media only screen and (max-width: 48em) {
+@media only screen and (max-width: 31.25em) {
   .search {
-    display: none;
+    order: 1;
+    flex: 0 0 100%;
   }
 }
 .search__input {
@@ -360,12 +366,6 @@ body {
   align-items: center;
   background-color: white;
 }
-@media only screen and (max-width: 48em) {
-  .overview {
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-}
 .overview_heading {
   font-size: 2rem;
   font-weight: 400;
@@ -373,7 +373,8 @@ body {
 }
 @media only screen and (max-width: 48em) {
   .overview_heading {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    margin: 0.5rem;
   }
 }
 .overview_stars {
@@ -386,6 +387,12 @@ body {
   fill: var(--color-primary);
   width: 1.7rem;
   height: 1.7rem;
+}
+@media only screen and (max-width: 48em) {
+  .overview_stars_icon {
+    width: 1.3rem;
+    height: 1.3rem;
+  }
 }
 .overview_location {
   margin-right: 2rem;

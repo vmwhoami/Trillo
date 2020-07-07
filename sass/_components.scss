@@ -23,8 +23,9 @@
     align-items: center;
     justify-content: center;
 
-    @media only screen and (max-width:48em) {
-        display: none;
+    @media only screen and (max-width:31.25em) {
+        order: 1;
+        flex: 0 0 100%;
     }
 
 
@@ -295,10 +296,6 @@
     align-items: center;
     background-color: white;
 
-    @media only screen and (max-width:48em) {
-        flex-direction: column;
-        justify-content: flex-start;
-    }
 
     &_heading {
         font-size: 2rem;
@@ -306,7 +303,8 @@
         margin: 1rem;
 
         @media only screen and (max-width:48em) {
-            font-size: 1.8rem;
+            font-size: 1.5rem;
+            margin: 0.5rem;
         }
     }
 
@@ -320,6 +318,11 @@
             fill: var(--color-primary);
             width: 1.7rem;
             height: 1.7rem;
+
+            @media only screen and (max-width:48em) {
+                width: 1.3rem;
+                height: 1.3rem;
+            }
         }
     }
 
