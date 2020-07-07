@@ -225,13 +225,10 @@
         @media only screen and (max-width:56.25em) {
             font-size: 1.5rem;
             height: 100%;
-
-        }
-
-        @media only screen and (max-width:37.5em) {
             display: flex;
             flex-direction: column;
             padding: 0.5rem 0;
+
         }
     }
 
@@ -320,8 +317,8 @@
             height: 1.7rem;
 
             @media only screen and (max-width:48em) {
-                width: 1.3rem;
-                height: 1.3rem;
+                width: 1.4rem;
+                height: 1.4rem;
             }
         }
     }

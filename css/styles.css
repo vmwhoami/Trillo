@@ -309,10 +309,6 @@ body {
   .navbar-left_list_link, .navbar-left_list_link:link, .navbar-left_list_link:visited {
     font-size: 1.5rem;
     height: 100%;
-  }
-}
-@media only screen and (max-width: 37.5em) {
-  .navbar-left_list_link, .navbar-left_list_link:link, .navbar-left_list_link:visited {
     display: flex;
     flex-direction: column;
     padding: 0.5rem 0;
@@ -390,8 +386,8 @@ body {
 }
 @media only screen and (max-width: 48em) {
   .overview_stars_icon {
-    width: 1.3rem;
-    height: 1.3rem;
+    width: 1.4rem;
+    height: 1.4rem;
   }
 }
 .overview_location {
