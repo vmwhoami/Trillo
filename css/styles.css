@@ -14,7 +14,7 @@
   --gray1: #555;
   --gray2: #666;
   --gray3: #777;
-  --shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3) ///Break points;
+  --shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3);
   --break-lg: 75em;
   --break-md: 48em;
 }
