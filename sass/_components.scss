@@ -37,7 +37,6 @@
         height: 50%;
         flex: 0 1 65%;
         font-family: inherit;
-        font-family: inherit;
         padding: .5rem 1rem;
         background-color: var(--gray-light1);
         border: none;
@@ -48,6 +47,12 @@
             height: 3rem;
         }
 
+        &::placeholder,
+        &::-webkit-input-placeholder {
+            font-family: inherit;
+            color: var(--gray-light);
+            font-weight: 600;
+        }
         &:focus {
             flex: 1 1 85%;
             outline: none;
@@ -56,18 +61,8 @@
 
 
 
-        &::placeholder,
-        &::-webkit-input-placeholder {
-            font-family: inherit;
-            color: var(--gray-light);
-            font-weight: 600;
-        }
+      
     }
-
-    &__input:focus+&__button {
-        background-color: var(--gray-light3);
-    }
-
 
     &__button {
         height: 50%;
@@ -94,6 +89,13 @@
             fill: var(--gray3)
         }
     }
+
+    &__input:focus+&__button {
+        background-color: var(--gray-light3);
+    }
+
+
+  
 }
 
 
@@ -148,7 +150,6 @@
     &__user {
 
         width: 6rem;
-        display: inline-block;
         border-radius: 50%;
         overflow: hidden;
         display: flex;
@@ -516,11 +517,6 @@
 
 //////////////////////////////
 /////////User Reviews/////////
-.user-reviews {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .review {
     background-color: white;

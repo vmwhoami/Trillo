@@ -2,10 +2,8 @@
 
 
 
-> Learned how to use sass in this project  
-> Media queries were used to target “different” screen sizes in order for us to effectively and efficiently let the website fit correctly to each screen size.
-
-> Building this project was fun as we practiced different CSS rules learned about new CSS tricks using pure CSS
+> Built this using only flexbox 
+> Media queries were used to target “different” screen sizes.
 
 ![screenshot](#)
 
@@ -14,14 +12,12 @@ This project covers the following HTML and CSS3 concepts
 
 - Fixed, relative and absolute positioning
 - Responsive Design concepts using media queries
-- Embedding images and videos
+- Flexbox
 
 ## Built With
 
 - HTML
 - CSS
-- Google fonts
-- Font Awesome
 
 ## Live Demo
 
