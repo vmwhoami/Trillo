@@ -71,6 +71,7 @@ body {
 @media only screen and (max-width: 23.5em) {
   .top-section {
     flex-wrap: wrap;
+    height: auto;
   }
 }
 
@@ -141,6 +142,7 @@ body {
 }
 .logo-svg {
   width: 8rem;
+  height: 7rem;
   fill: var(--gray3);
 }
 
@@ -226,6 +228,7 @@ body {
 }
 .usernav-notification {
   background-color: #df0000;
+  display: inline-block;
   color: #fff;
   position: absolute;
   top: 1rem;
@@ -236,6 +239,7 @@ body {
 }
 .usernav__user {
   width: 6rem;
+  display: inline-block;
   border-radius: 50%;
   overflow: hidden;
   display: flex;
@@ -244,8 +248,8 @@ body {
 }
 .usernav__user_imgcontainer {
   display: inline-block;
-  width: 100%;
-  height: 100%;
+  width: 7rem;
+  height: 7rem;
 }
 .usernav__user_imgcontainer:hover {
   background-color: var(--gray-light3);
