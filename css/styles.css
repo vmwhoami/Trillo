@@ -39,6 +39,11 @@ html {
     font-size: 65%;
   }
 }
+@media only screen and (max-width: 23.5em) {
+  html {
+    font-size: 60%;
+  }
+}
 
 body {
   background: linear-gradient(to right bottom, var(--color-primary-light), var(--color-primary));
@@ -68,10 +73,10 @@ body {
   justify-content: space-between;
   border: 1px solid var(--gray-light);
 }
-@media only screen and (max-width: 23.5em) {
+@media only screen and (max-width: 48em) {
   .top-section {
     flex-wrap: wrap;
-    height: auto;
+    height: 12rem;
   }
 }
 
@@ -140,6 +145,11 @@ body {
   display: flex;
   align-items: center;
 }
+@media only screen and (max-width: 48em) {
+  .logo {
+    height: 7rem;
+  }
+}
 .logo-svg {
   width: 8rem;
   height: 7rem;
@@ -152,10 +162,11 @@ body {
   align-items: center;
   justify-content: center;
 }
-@media only screen and (max-width: 31.25em) {
+@media only screen and (max-width: 48em) {
   .search {
     order: 1;
     flex: 0 0 100%;
+    width: 100%;
   }
 }
 .search__input {
@@ -168,6 +179,12 @@ body {
   border: none;
   border-radius: 5rem 0 0 5rem;
   transition: all 0.3s;
+}
+@media only screen and (max-width: 48em) {
+  .search__input {
+    width: 70%;
+    height: 3rem;
+  }
 }
 .search__input:focus {
   flex: 1 1 85%;
@@ -191,6 +208,12 @@ body {
   border-radius: 0 5rem 5rem 0;
   border: none;
   background-color: var(--gray-light1);
+}
+@media only screen and (max-width: 48em) {
+  .search__button {
+    width: 10%;
+    height: 3rem;
+  }
 }
 .search__button:active, .search__button:focus {
   outline: none;
@@ -217,6 +240,11 @@ body {
 .usernav-iconbox {
   position: relative;
   flex: 1 0 2rem;
+}
+@media only screen and (max-width: 48em) {
+  .usernav-iconbox {
+    height: 7rem;
+  }
 }
 .usernav-iconbox--icon {
   fill: var(--gray3);
@@ -245,6 +273,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media only screen and (max-width: 48em) {
+  .usernav__user {
+    height: 7rem;
+  }
 }
 .usernav__user_imgcontainer {
   display: inline-block;
@@ -366,6 +399,13 @@ body {
   display: flex;
   align-items: center;
   background-color: white;
+}
+@media only screen and (max-width: 28.125rem) {
+  .overview {
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-end;
+  }
 }
 .overview_heading {
   font-size: 2rem;

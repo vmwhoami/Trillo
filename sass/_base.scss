@@ -42,6 +42,10 @@ html {
     @media only screen and (max-width:$break-md) {
         font-size: 65%;
     }
+    @media only screen and (max-width:$break-small) {
+        font-size: 60%;
+    }
+   
 }
 
 body {
