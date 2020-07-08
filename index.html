@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,200;0,600;0,800;1,300;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="img/SVG/vmlogo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Trillo</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="top-section">
+            <div class="logo">
+                <svg class="logo-svg">
+                    <use xlink:href="img/sprite.svg#icon-vmlogo"></use>
+                </svg>
+            </div>
+            <form class="search" action="#">
+                <input type="search" name="search" id="search" class="search__input"
+                    placeholder="Search for something cool">
+                <button class="search__button">
+                    <svg class="search__button--icon">
+                        <use xlink:href="img/sprite.svg#icon-search"></use>
+                    </svg>
+                </button>
+            </form>
+            <nav class="usernav">
+                <div class="usernav-iconbox">
+                    <svg class="usernav-iconbox--icon">
+                        <use xlink:href="img/sprite.svg#icon-bookmark1"></use>
+                    </svg>
+                    <span class="usernav-notification">7</span>
+                </div>
+                <div class="usernav-iconbox">
+                    <svg class="usernav-iconbox--icon">
+                        <use xlink:href="img/sprite.svg#icon-chat"></use>
+                    </svg>
+                    <span class="usernav-notification">12</span>
+                </div>
+                <div class="usernav__user">
+                    <div class="usernav__user_imgcontainer">
+                        <img class="usernav__user--img" src="img/olea1.jpg" alt="user">
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+        <div class="content">
+            <nav class="navbar-left">
+                <ul class="navbar-left_list">
+                    <li class="navbar-left_list_li  navbar-left_list_li--active">
+                        <a class="navbar-left_list_link" href="#">
+                            <svg class="navbar-left_list_icon">
+                                <use xlink:href="img/sprite.svg#icon-home"></use>
+                            </svg>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="navbar-left_list_li">
+                        <a class="navbar-left_list_link" href="#">
+                            <svg class="navbar-left_list_icon">
+                                <use xlink:href="img/sprite.svg#icon-aircraft-take-off"></use>
+                            </svg>
+                            <span>Flight</span>
+                        </a>
+                    </li>
+                    <li class="navbar-left_list_li">
+                        <a class="navbar-left_list_link" href="#">
+                            <svg class="navbar-left_list_icon">
+                                <use xlink:href="img/sprite.svg#icon-key"></use>
+                            </svg>
+                            <span> rental</span>
+                        </a>
+                    </li>
+                    <li class="navbar-left_list_li">
+                        <a class="navbar-left_list_link" href="#">
+                            <svg class="navbar-left_list_icon">
+                                <use xlink:href="img/sprite.svg#icon-map2"></use>
+                            </svg>
+                            <span>tours</span>
+                        </a>
+                    </li>
+                </ul>
+                <a class="navbar-left_footer" href="#"> Vitalie Melnic
+                    <span>&copy;vmwhoami</span>
+                </a>
+
+            </nav>
+            <!-- =================================== -->
+            <!-- ////////////////////// Main ////////// -->
+            <!-- =================================== -->
+            <main class="main-content">
+                <div class="gallery">
+                    <figure class="gallery_img">
+                        <img class="gallery_photo" src="img/cha.jpg" alt="picture">
+                    </figure>
+                    <figure class="gallery_img">
+                        <img class="gallery_photo" src="img/cha1.jpg" alt="picture">
+                    </figure>
+                    <figure class="gallery_img">
+                        <img class="gallery_photo" src="img/cha2.jpg" alt="picture">
+                    </figure>
+                </div>
+                <div class="overview">
+                    <h1 class="overview_heading">Hunan China Changsha</h1>
+                    <div class="overview_stars">
+                        <svg class="overview_stars_icon">
+                            <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg class="overview_stars_icon">
+                            <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg class="overview_stars_icon">
+                            <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg class="overview_stars_icon">
+                            <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg class="overview_stars_icon">
+                            <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg class="overview_stars_icon">
+                            <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                        </svg>
+                    </div>
+                    <div class="overview_location">
+                        <svg class="overview_stars_icon">
+                            <use xlink:href="img/sprite.svg#icon-location2"></use>
+                        </svg>
+                        <button class="btn-inline">Changsha,Ch</button>
+                    </div>
+                    <div class="overview_rating">
+                        <span class="overview_rating-score">9.0</span>
+                        <span class="overview_rating-numusers">567 votes</span>
+                    </div>
+                </div>
+                <div class="detail">
+                    <div class="description">
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa odio dicta voluptas impedit
+                            pariatur eos aliquid non rerum, libero saepe, odit dignissimos, nemo tempore facere dolore
+                            minima ipsum sequi sit.
+                        </p>
+                        <p class="paragraph">
+                            odit dignissimos, nemo tempore facere dolore
+                            minima ipsum sequi sit.
+                        </p>
+                        <ul class="list">
+                            <li class="list_item">Close to the heart</li>
+                            <li class="list_item">Some random text</li>
+                            <li class="list_item">Again jiberish</li>
+                            <li class="list_item">You guessed it</li>
+                            <li class="list_item">Sex!! just to pay attention</li>
+                            <li class="list_item">Don't read this</li>
+                            <li class="list_item">Ok go on move along</li>
+                            <li class="list_item">Something interesting</li>
+                        </ul>
+                        <div class="recomend">
+                            <p class="recomend_count">Lorem ipsum dolor sit amet, consectetur adipisicing elit!
+                            </p>
+                            <div class="recomend_photo">
+                                <img class="recomend_pic" src="img/budtourover-18.jpg" alt="recomending friends">
+                                <img class="recomend_pic" src="img/changsha-11.jpg" alt="recomending friends">
+                                <img class="recomend_pic" src="img/changsha-12.jpg" alt="recomending friends">
+                                <img class="recomend_pic" src="img/changsha-16.jpg" alt="recomending friends">
+                                <img class="recomend_pic" src="img/changsha-7.jpg" alt="recomending friends">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-reviews">
+                        <figure class="review">
+                            <blockquote class="review_text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui eligendi commodi suscipit
+                                quaerat, nobis maiores aut ut ratione inventore? In nulla molestias dolore vel
+                                distinctio maiores aliquid amet voluptatem aperiam.
+                            </blockquote>
+                            <figcaption class="review-user">
+                                <img class="review__img" src="img/changsha-7.jpg" alt="reviewer">
+                                <div class="review-user_box">
+                                    <p class="review-user_name">Bogdan Sergiu</p>
+                                    <p class="review-user_date">March 5 2020 </p>
+                                </div>
+                                <div class="review__rating">7.8</div>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="review">
+                            <blockquote class="review_text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui eligendi commodi suscipi
+                            </blockquote>
+                            <figcaption class="review-user">
+                                <img class="review__img" src="img/changsha-16.jpg" alt="reviewer">
+                                <div class="review-user_box">
+                                    <p class="review-user_name">Ina Bogdan</p>
+                                    <p class="review-user_date">October 5 2013 </p>
+                                </div>
+                                <div class="review__rating">4.8</div>
+                            </figcaption>
+                        </figure>
+
+                        <button class="btn-inline ">Learn more <span>&rarr;</span></button>
+                    </div>
+                </div>
+                <div class="cta">
+                    <h2 class="cta_booknow">We have only 3 rooms available</h2>
+                    <button class="btn">
+                        <span class="btn__invisible">Only 3 rooms left</span>
+                        <span class="btn__visible">Book now</span>
+                    </button>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+
+</html>
