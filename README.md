@@ -5,8 +5,8 @@
 > Built this using only flexbox 
 > Media queries were used to target “different” screen sizes.
 
-![screenshot](#)
-
+![screenshot](https://raw.githubusercontent.com/vmwhoami/Trillo/work/img/Screenshot_Desktop.jpg)
+![screenshot](https://raw.githubusercontent.com/vmwhoami/Trillo/work/img/Screenshot_Mobile.jpg)
 
 This project covers the following HTML and CSS3 concepts
 
