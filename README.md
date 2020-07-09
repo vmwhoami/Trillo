@@ -21,7 +21,7 @@ This project covers the following HTML and CSS3 concepts
 
 ## Live Demo
 
-[Live Demo Link](https://trillo-65rur0xqo.now.sh/)
+[Live Demo Link](https://rawcdn.githack.com/vmwhoami/Trillo/da9fcdf7e6286a6ddf8f90530b13d45db9008e72/index.html)
 
 ## Getting Started
 
