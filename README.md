@@ -32,7 +32,7 @@ $ cd <folder>
 ```
 
 ```
-$ git clone https://github.com/vmwhoami/advanced-css
+$ git clone https://github.com/vmwhoami/Trillo
 
 ```
 
