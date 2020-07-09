@@ -5,8 +5,8 @@
 > Built this using only flexbox 
 > Media queries were used to target “different” screen sizes.
 
-![screenshot](#)
-
+![screenshot](https://raw.githubusercontent.com/vmwhoami/Trillo/work/img/Screenshot_Desktop.jpg)
+![screenshot](https://raw.githubusercontent.com/vmwhoami/Trillo/work/img/Screenshot_Mobile.jpg)
 
 This project covers the following HTML and CSS3 concepts
 
@@ -21,7 +21,7 @@ This project covers the following HTML and CSS3 concepts
 
 ## Live Demo
 
-[Live Demo Link](https://trillo-65rur0xqo.now.sh/)
+[Live Demo Link](https://rawcdn.githack.com/vmwhoami/Trillo/da9fcdf7e6286a6ddf8f90530b13d45db9008e72/index.html)
 
 ## Getting Started
 
@@ -32,7 +32,7 @@ $ cd <folder>
 ```
 
 ```
-$ git clone https://github.com/vmwhoami/advanced-css
+$ git clone https://github.com/vmwhoami/Trillo
 
 ```
 
