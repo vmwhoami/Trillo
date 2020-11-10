@@ -2,7 +2,7 @@
 
 
 
-> Built this using only flexbox 
+> Built using CSS/SCSS flexbox 
 > Media queries were used to target “different” screen sizes.
 
 ![screenshot](https://raw.githubusercontent.com/vmwhoami/Trillo/work/img/Screenshot_Desktop.jpg)
